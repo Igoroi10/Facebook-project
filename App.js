@@ -26,7 +26,7 @@ export default function App() {
       backgroundColor='#FFFFFF'
       barStyle='dark-content'
       />
-      <ScrollView>
+      <ScrollView style={{flex: 1, maxHeight: "10%"}}>
         <Header/>
       </ScrollView>
       <NavigationContainer>
@@ -66,3 +66,10 @@ export default function App() {
 }
 
 
+const styles = StyleSheet.create({
+  contentContainer: {
+    paddingVertical: 20,
+    marginBottom: 0,
+    flex: 1,
+  }
+});
