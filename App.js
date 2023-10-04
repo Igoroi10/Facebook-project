@@ -22,6 +22,7 @@ const Tab = createMaterialTopTabNavigator();
 export default function App() {
   return (
     <>
+    <NavigationContainer>
     <StatusBar
       backgroundColor='#FFFFFF'
       barStyle='dark-content'
@@ -29,7 +30,7 @@ export default function App() {
       <ScrollView style={{flex: 1, maxHeight: "10%"}}>
         <Header/>
       </ScrollView>
-      <NavigationContainer>
+
         <Tab.Navigator          
           options={
             {

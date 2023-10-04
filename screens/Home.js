@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 import ToolBar from '../components/ToolBar'
 import MainSeparator from '../components/MainSeparator'
+import Users from '../components/Users'
 
 const View = styled.View`
     align-items: center;
@@ -14,6 +15,7 @@ const Home = () => {
         <View>
             <ToolBar/> 
             <MainSeparator/> 
+            <Users/>
         </View>
     )
 }
