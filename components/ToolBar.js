@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "styled-components/native";
 import {MaterialCommunityIcons} from '@expo/vector-icons'
 import Avatar from "./Avatar";
 
@@ -47,9 +47,9 @@ const Separator= styled.View`
 
 const ToolBar = () => {
     return (
-        <Container>ç
+        <Container>
             <Row>
-                <Avatar source={require('../assets/12.jpg')}/>
+                {/* <Avatar source={require('../assets/12.jpg')}/> */}
                 <Input placeholder='¿Qué estás pensando?'/>
             </Row>
             <Divider/>

@@ -2,6 +2,9 @@ import React from 'react'
 import {Text} from 'react-native'
 import styled from 'styled-components'
 
+import ToolBar from '../components/ToolBar'
+import MainSeparator from '../components/MainSeparator'
+
 const View = styled.View`
     align-items: center;
     height: 500px;
@@ -9,7 +12,8 @@ const View = styled.View`
 const Home = () => {
     return(
         <View>
-            <Text>Home Screen</Text>
+            <ToolBar/> 
+            <MainSeparator/> 
         </View>
     )
 }
