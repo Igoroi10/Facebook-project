@@ -8,8 +8,11 @@ import {MaterialCommunityIcons} from '@expo/vector-icons'
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs'
+const Tab = createMaterialTopTabNavigator();
 
 import Header from './components/Header.js';
+
+
 import Home from './screens/Home.js';
 import Friends from './screens/Friends.js';
 import Groups from './screens/Groups.js';
@@ -17,7 +20,8 @@ import Profile from './screens/Profile.js';
 import Notifications from './screens/Notificatinos.js';
 import Menu from './screens/Menu.js';
 
-const Tab = createMaterialTopTabNavigator();
+
+
 
 export default function App() {
   return (
