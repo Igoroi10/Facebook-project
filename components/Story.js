@@ -3,6 +3,7 @@ import { ScrollView } from 'react-native'
 import styled from 'styled-components/native'
 import {MaterialCommunityIcons} from '@expo/vector-icons'
 import fakeStories from './fakeStories'
+import Avatar from './Avatar'
 
 const Container= styled.View`
     width: 100%;
