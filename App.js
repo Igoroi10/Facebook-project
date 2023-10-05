@@ -66,11 +66,3 @@ export default function App() {
   );
 }
 
-
-const styles = StyleSheet.create({
-  contentContainer: {
-    paddingVertical: 20,
-    marginBottom: 0,
-    flex: 1,
-  }
-});

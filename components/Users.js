@@ -45,8 +45,7 @@ const Users = () => {
                 {fakeUsers.map((el, i) => {
                     return(
                         <User key={i.toString()}>
-                            <Text>Prueba</Text>
-                        {/* //     <Avatar source={el.source} online={el.online}/> */}
+                            <Avatar source={el.source} online={el.online}/>
                         </User>
                     )
                 })}

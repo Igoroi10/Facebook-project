@@ -8,7 +8,7 @@ const Container = styled.View`
 `
 const ProfileImage = styled.Image`
     width: 40px;
-    height: 40px
+    height: 40px;
     border-radius: 20px;
 `
 const UserActive = styled.View`

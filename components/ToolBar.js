@@ -49,7 +49,7 @@ const ToolBar = () => {
     return (
         <Container>
             <Row>
-                {/* <Avatar source={require('../assets/12.jpg')}/> */}
+                <Avatar source={require('../assets/12.jpg')}/>
                 <Input placeholder='¿Qué estás pensando?'/>
             </Row>
             <Divider/>
