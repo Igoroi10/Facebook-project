@@ -4,16 +4,16 @@ import styled from 'styled-components/native'
 import {MaterialCommunityIcons} from '@expo/vector-icons'
 
 const Container= styled.View`
-    width: 100px;
+    width: 100%;
     height: 230px;
     flex-direction: row;
     align-items: center; 
 `
 const UserCard = styled.View`
-width: 110px;
-height: 200px;
-margin-right: 10px;
-position: relative;
+    width: 110px;
+    height: 200px;
+    margin-right: 10px;
+    position: relative;
 `
 
 const UserCardStory= styled.Image`
@@ -51,7 +51,8 @@ const Text = styled.Text`
 `
 
 const Story = () => {
-    <>
+    return(
+        <>
         <Container>
             <ScrollView
                 horizontal
@@ -70,6 +71,8 @@ const Story = () => {
             </ScrollView>
         </Container>
     </>
+    )
+
 }
 
 export default Story
