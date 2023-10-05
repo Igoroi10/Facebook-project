@@ -2,7 +2,7 @@ import React from "react";
 import {ScrollView} from 'react-native';
 import styled from "styled-components";
 import {MaterialCommunityIcons} from '@expo/vector-icons'
-import Avatar from "../App";
+import Avatar from "./Avatar.js";
 import fakeUsers from '../data/fakedata.js'
 
 const Container= styled.View`
