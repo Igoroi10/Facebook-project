@@ -2,6 +2,7 @@ import React from 'react'
 import {Text} from 'react-native'
 import styled from 'styled-components'
 import ProfileToolBar from '../components/profileToolBar'
+import profileAvatar from '../components/profileAvatar'
 
 const View = styled.View`
     align-items: center;
@@ -11,6 +12,7 @@ const Profile = () => {
     return(
         <View>
             <ProfileToolBar/>
+            <profileAvatar/>
         </View>
     )
 }
