@@ -21,11 +21,22 @@ const Photo = styled.Image`
     border-radius: 80px;
     border-color: #3b5998;
 `
+const Icon = styled.Image`
+    top: 80%;
+    left: 80%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #10D24B;
+    border: 2px solid #FFFFFF;
+`
 
 const ProfileAvatarPicture = () => {
     return(
             <UserOnCard>    
                 <Photo source={fakeProfile.profile}/>
+                <Icon/>
             </UserOnCard>
     )
 }
