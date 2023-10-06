@@ -3,6 +3,7 @@ import { Text, Image } from "react-native";
 import styled from "styled-components/native"
 import fakeProfile from '../data/fakeProfile'
 import ProfileAvatarPicture from "./ProfileAvatarPicture";
+import ProfileName from "./ProfileName";
 
 
 const Container = styled.View`
@@ -22,6 +23,7 @@ const ProfileAvatar = () => {
         <Container>
             <Photo source={fakeProfile.background}/>
             <ProfileAvatarPicture/>
+            <ProfileName/>
         </Container>
     )
 }
