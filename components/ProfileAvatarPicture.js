@@ -24,13 +24,10 @@ const Photo = styled.Image`
 
 const ProfileAvatarPicture = () => {
     return(
-        <>
             <UserOnCard>    
                 <Photo source={fakeProfile.profile}/>
             </UserOnCard>
-        </>
     )
-
 }
 
 export default ProfileAvatarPicture
