@@ -6,7 +6,6 @@ import Avatar from "./Avatar";
 const Container = styled.View`
     width: 100%;
     height: 92px;
-    background-color: #3b5998;
 `
 const Row = styled.View`
     flex-direction: row;
@@ -17,7 +16,7 @@ const Row = styled.View`
 `
 const Input = styled.TextInput`
     height: 40px;
-    width: 85%;
+    width: 80%;
     padding: 0 8px;
     border: 1px solid #DDD;
     margin: 10px;
@@ -29,8 +28,9 @@ const ProfileToolBar = () => {
     return (
         <Container>
             <Row>
-                <MaterialCommunityIcons name='video-account' size={20} color='#F44337'/>
+                <MaterialCommunityIcons name='arrow-left' size={20} color='#3b5998'/>
                 <Input placeholder='¿Qué estás pensando?'/>
+                <MaterialCommunityIcons name='account-box' size={30} color='#3b5998'/>
             </Row>
         </Container>
     )
