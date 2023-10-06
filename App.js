@@ -56,6 +56,7 @@ export default function App() {
               else if(route.name === 'Menu') iconName = 'menu'
               return <MaterialCommunityIcons name={iconName} size={26} color={color}/>
             },
+            tabBarShowLabel: false,
           })}
           >
           <Tab.Screen name='Home' component={Home}/>
